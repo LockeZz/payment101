@@ -8,6 +8,6 @@ class CreateProducts < ActiveRecord::Migration[6.1]
       t.timestamps
     end
 
-    add_money :products, :price, :currency: { present: true }
+    add_money :products, :price, currency: { present: true }
   end
 end

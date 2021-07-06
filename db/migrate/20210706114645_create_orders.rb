@@ -12,6 +12,6 @@ class CreateOrders < ActiveRecord::Migration[6.1]
 
       t.timestamps
     end
-    add_money :orders, :price, :currency: {present: false}
+    add_money :orders, :price, currency: {present: false}
   end
 end
