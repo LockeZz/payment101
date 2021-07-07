@@ -27,6 +27,7 @@ gem 'devise'
 gem 'haml'
 gem 'jquery-rails'
 gem 'money-rails'
+gem 'stripe-rails'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
