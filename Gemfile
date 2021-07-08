@@ -28,6 +28,7 @@ gem 'haml'
 gem 'jquery-rails'
 gem 'money-rails'
 gem 'stripe-rails'
+gem 'paypal-sdk-rest'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
